@@ -7,7 +7,7 @@
 :root {
     --white: hsl(0, 0%, 100%);
     --Light-gray: hsl(212, 45%, 89%);
-    --Grayish-blue: hsl(220, 15%, 55);
+    --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%)
 }
 
@@ -61,7 +61,7 @@ body{
     font-weight: 400;
     font-size: .78rem;
     padding: 0rem .7rem .5rem;
-    color: hsl(220, 15%, 55);
+    color: var(--Grayish-blue);
     margin-bottom: 10px;
     margin-top: 10px;
 }
